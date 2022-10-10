@@ -20,7 +20,7 @@ delta  = h1+h2
 print("la valeur de delta h est : ",delta ,"m")
 S = l*L
 print("la section du parallipipede est :",S,"m*2")
-F = mvolumique*g*delta*S
+F = mvolumique*g*delta*S*10**-3/10**-6
 print("l'intensité de force qui s'exerce sur le fond horizentale du récipient est :",F,"N")
 
 
